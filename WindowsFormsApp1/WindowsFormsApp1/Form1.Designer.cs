@@ -48,9 +48,10 @@ namespace WindowsFormsApp1
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ındexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ındexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.viewListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +70,7 @@ namespace WindowsFormsApp1
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
+            this.viewListToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
@@ -174,12 +176,12 @@ namespace WindowsFormsApp1
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(221, 6);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(221, 6);
             // 
             // helpToolStripMenuItem
             // 
@@ -198,22 +200,28 @@ namespace WindowsFormsApp1
             this.contentsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.contentsToolStripMenuItem.Text = "About";
             // 
-            // ındexToolStripMenuItem
-            // 
-            this.ındexToolStripMenuItem.Name = "ındexToolStripMenuItem";
-            this.ındexToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.ındexToolStripMenuItem.Text = "Github Reopository";
-            // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.searchToolStripMenuItem.Text = "Help File";
             // 
+            // ındexToolStripMenuItem
+            // 
+            this.ındexToolStripMenuItem.Name = "ındexToolStripMenuItem";
+            this.ındexToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.ındexToolStripMenuItem.Text = "Github Reopository";
+            // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(221, 6);
+            // 
+            // viewListToolStripMenuItem
+            // 
+            this.viewListToolStripMenuItem.Name = "viewListToolStripMenuItem";
+            this.viewListToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.viewListToolStripMenuItem.Text = "View List";
             // 
             // Form1
             // 
@@ -255,6 +263,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem ındexToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripMenuItem viewListToolStripMenuItem;
     }
 }
 
